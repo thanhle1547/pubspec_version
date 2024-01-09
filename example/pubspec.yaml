@@ -1,0 +1,17 @@
+name: example
+description: An example of pubspec_version_extractor package.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  pubspec_version_extractor:
+    path: ../
+
+dev_dependencies:
+  build_runner: ^2.4.7
+
+pubspec_version_extractor:
+  output: lib/config
